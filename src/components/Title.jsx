@@ -9,13 +9,13 @@ export default function Title({ newUser, deleteUsers }) {
   
 	return (
 	  <>
-		<h1 className='title'>Random Users v3.0</h1>
+		<h1 className='title'>Random Users</h1>
 		<div className='buttons'>
 		  <button className='btn btn-add' onClick={eventAddUser}>
 			Añadir usuario
 		  </button>
 		  <button className='btn btn-delete' onClick={eventDeleteUsers}>
-			Eliminar todos los usuarios
+			Eliminar usuarios
 		  </button>
 		</div>
 	  </>
